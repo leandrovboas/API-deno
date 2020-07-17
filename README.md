@@ -1,6 +1,6 @@
 # API Deno
 
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/leandrovboas/API-deno/blob/master/LICENSE)
 
 > :sauropod: Esse projeto trata-se de um teste de criação de API com o Deno.
 
@@ -10,7 +10,7 @@ Para manter uma melhor organização dos lançamentos, seguimos as diretrizes do
 
 ## Histórico
 
-Consulte as [Releases](https://github.com/afonsopacifer/open-source-boilerplate/releases) para obter um log de alterações detalhado.
+Consulte as [Releases](https://github.com/leandrovboas/API-deno/issues) para obter um log de alterações detalhado.
 
 ## License
 
