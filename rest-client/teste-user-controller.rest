@@ -1,0 +1,44 @@
+
+@baseUrl = http://127.0.0.1:3333
+
+//TesteURL
+GET {{baseUrl}}
+Content-Type: application/json
+Accept: application/json
+
+###
+//GetAllUsers
+GET {{baseUrl}}/users
+Content-Type: application/json
+Accept: application/json
+
+###
+//GetUserById
+GET {{baseUrl}}/user/1
+Content-Type: application/json
+Accept: application/json
+
+###
+//AddUser
+POST {{baseUrl}}/user
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Leandro",
+  "email": "leandrovboas@teste.com"
+}
+
+###
+//UpdateUser
+PUT {{baseUrl}}/user/2
+Content-Type: application/json
+
+{
+  "email": "Teste@teste.com"
+}
+
+###
+//DeleteUser
+DELETE {{baseUrl}}/user/1
+Content-Type: application/json

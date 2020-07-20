@@ -1,0 +1,29 @@
+  {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+      "name": "Debug Deno",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run",
+        "--inspect-brk",
+        "-A",
+        "src/server.ts"],
+      "outputCapture": "std",
+      "port": 3333,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Deno (Attach)",
+      "type": "node",
+      "request": "attach",
+      "port": 9229
+}
+  ]
+}
